@@ -1,0 +1,13 @@
+.basic{
+    font-family: inter;    color: #17A2B8;
+    font-size: 50px;
+    
+}
+.introBG{
+    background-color:#17A2B8 ;
+    background-repeat: no-repeat;
+    font-family: inter;
+    text-transform: capitalize;
+}
+
+

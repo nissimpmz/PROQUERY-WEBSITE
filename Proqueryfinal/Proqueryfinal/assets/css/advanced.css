@@ -1,0 +1,574 @@
+     /* CSS FOR FUNDAMENTALS */
+
+.F-title{
+    text-align: center;
+    background-color: #17A2B8;
+    color: white;
+    padding: 70px;
+    width: 100%;
+    margin:0; 
+    font-family: inter;
+    font-size: 60;
+    
+}
+
+.Fdescription{
+    font-size: 16px;  
+    margin-bottom: 20px;
+    margin-left:65px;
+    color: #333;
+    text-align: left;
+    padding-left: 20px;
+    font-style: normal;
+}
+
+.FCRUD{
+    padding-left: 100px;
+}
+
+.Flist-container ol li {
+    margin-bottom: 10px;
+}
+
+.Fsyntax-box1,
+.Fsyntax-box2,
+.Fsyntax-box3,
+.Fsyntax-box4,
+.Fsyntax-box5,
+.Fsyntax-box6,
+.Fsyntax-box7,
+.Fsyntax-box8,
+.Fsyntax-box9,
+.Fsyntax-box10{
+    background-color: #f5f5f5;
+    border-left: 5px solid #17A2B8;
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin: 0 auto;
+}
+
+.Fsyntax-box1 h3,
+.Fsyntax-box2 h3,
+.Fsyntax-box3 h3,
+.Fsyntax-box4 h3,
+.Fsyntax-box5 h3,
+.Fsyntax-box6 h3,
+.Fsyntax-box7 h3,
+.Fsyntax-box8 h3,
+.Fsyntax-box9 h3,
+.Fsyntax-box10 h3 {
+    margin: 0 0 10px 0;
+    color: #17A2B8;
+}
+
+.Fsyntax-box1 pre,
+.Fsyntax-box2 pre,
+.Fsyntax-box3 pre,
+.Fsyntax-box4 pre,
+.Fsyntax-box5 pre,
+.Fsyntax-box6 pre,
+.Fsyntax-box7 pre,
+.Fsyntax-box8 pre,
+.Fsyntax-box9 pre,
+.Fsyntax-box10 pre {
+    background: #ffffff;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.Fselect-container,
+.FcreateDB-container,
+.FcreateTB-container,
+.Falter-container,
+.Fdrop-container,
+.Fselect-container,
+.Finsert-container,
+.Fdelete-container,
+.Fwhere-container,
+.Fagg-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.Fnote-text {
+    background-color: #00394F;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+/*CSS FOR FOOTER */
+/* Section: Footer Section */
+.footer {
+    background-color: #00394F;
+    color: white;
+    text-align: center;
+    padding: 20px 10PX;
+  }
+  
+  .footer-top {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 0 10px;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .footer-nav a {
+    color: white; 
+    text-decoration: none; 
+    margin: 0 35px; 
+    font-weight: bold; 
+  }
+  
+  .footer-nav a:hover {
+    text-decoration: underline; 
+  }
+  
+  .center-link {
+    text-align: center; 
+    margin: 20px 20px; 
+  }
+  
+  .footer-middle {
+    margin: 20px 300px;
+    line-height: 1.6;
+    font-size: 16px;
+    padding: 0 20px;
+  }
+  
+  .footer-bottom {
+    padding-top: 10px;
+  }
+  
+  .social-icons {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  
+  .social-icons a:hover {
+    color: #17a2b8; /* Optional hover effect */
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    margin: 0;
+    opacity: 0.8;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .col-md-3 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  
+    img.rounded-circle {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .col-md-3 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    img.rounded-circle {
+      width: 100px;
+      height: 100px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .lead {
+      font-size: 1rem;
+    }
+  }
+  
+  
+  blockquote {
+    font-size: 0.9rem;
+    color: #333;
+    font-style: italic;
+    border-left: 4px solid #17a2b8;
+    padding-left: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+  }
+  
+  .quote-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 1rem;
+  }
+  
+  
+li:hover{
+  color: #17A2B8;
+}
+
+
+/* General link styles */
+a {
+  color: black; /* Default text color */
+  text-decoration: none; /* Removes the underline */
+  transition: color 0.3s ease; 
+}
+
+/* Hover effect for links */
+a:hover {
+  color: 17A2B8; 
+}
+
+/* Optional: style the list items if needed */
+li {
+  margin: 5px 0; /* Adds spacing between items */
+  list-style: none; /* Removes bullet points */
+}
+
+
+
+/*CSS FOR ADVANCED */
+#basic-content {
+    width: 100%;
+}
+
+#inner-content {
+    width: 100%;
+
+}
+
+* {
+    font-style: normal; 
+    margin-right: 10px;
+    
+  } 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #17A2B8;
+}
+
+b {
+    color: #17A2B8;
+}
+
+.advance-title {
+    text-align: center;
+    background-color: #17A2B8;
+    color: white;
+    padding: 70px 0;
+    width: 100%;
+    margin: 0;
+    font-family: inter;
+    font-size: 60;
+}
+
+body{
+  margin:10px;
+}
+
+
+.hr-container,
+.left-join,
+.right-join,
+.order-by,
+.group-by,
+.having-clause,
+.subquery {
+    color: #17A2B8;
+    font-size: 35;
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    height: auto;
+}
+
+.inner-join-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.description,
+.Ptable-description,
+.Ctable-description,
+.l-description,
+.c-description,
+.o-description,
+.r-description,
+.Otable-description,
+.Etable-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left:65px;
+    color: #333;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.syntax-box {
+    background-color: #f5f5f5;
+    border-left: 5px solid #17A2B8;
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.syntax-box h3 {
+    margin: 0 0 10px 0;
+    color: #17A2B8;
+}
+
+.syntax-box pre {
+    background: #ffffff;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+
+
+.inner-join-text {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    font-weight: bold;
+    color: #17A2B8;
+    background-color: white;
+    padding: 5px;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    
+}
+
+th,
+td {
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #17A2B8;
+}
+
+
+td,
+th {
+    border-left: none;
+    border-right: none;
+} 
+
+.inner-join-container1,
+.inner-join-container2,
+.inner-join-container3,
+.left-join-container,
+.right-join-container,
+.right-join-container1,
+.orderby-container,
+.groupby-container,
+.groupby-container1,
+.groupby-container2,
+.groupby-container3,
+.having-container,
+.having-container11,
+.subquery-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.syntax-box,
+.syntax-box1,
+.syntax-box2,
+.syntax-box3,
+.syntax-box4,
+.syntax-box5,
+.syntax-box6,
+.syntax-box7,
+.syntax-box8,
+.syntax-box9,
+.syntax-box10,
+.syntax-box11,
+.syntax-box12,
+.syntax-box13,
+.syntax-box14,
+.syntax-box15,
+.syntax-box16,
+.syntax-box17,
+.syntax-box18,
+.syntax-box19,
+.syntax-box20,
+.syntax-box21,
+.syntax-box22 {
+    background-color: #f5f5f5;
+    border-left: 5px solid #17A2B8;
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin: 0px auto;
+
+}
+
+.syntax-box1 h3,
+.syntax-box2 h3,
+.syntax-box3 h3,
+.syntax-box4 h3,
+.syntax-box5 h3,
+.syntax-box6 h3,
+.syntax-box7 h3,
+.syntax-box8 h3,
+.syntax-box9 h3,
+.syntax-box10 h3,
+.syntax-box11 h3,
+.syntax-box12 h3,
+.syntax-box13 h3,
+.syntax-box14 h3,
+.syntax-box15 h3,
+.syntax-box16 h3,
+.syntax-box17 h3,
+.syntax-box18 h3,
+.syntax-box19 h3,
+.syntax-box20 h3,
+.syntax-box21 h3,
+.syntax-box22 h3{
+    margin: 0 0 10px 0;
+    color: #17A2B8;
+
+}
+
+.syntax-box1 pre,
+.syntax-box2 pre,
+.syntax-box3 pre,
+.syntax-box4 pre,
+.syntax-box5 pre,
+.syntax-box6 pre,
+.syntax-box7 pre,
+.syntax-box8 pre,
+.syntax-box9 pre,
+.syntax-box10 pre,
+.syntax-box11 pre,
+.syntax-box12 pre,
+.syntax-box13 pre,
+.syntax-box14 pre,
+.syntax-box15 pre,
+.syntax-box16 pre,
+.syntax-box17 pre,
+.syntax-box18 pre,
+.syntax-box19 pre,
+.syntax-box20 pre,
+.syntax-box21 pre,
+.syntax-box22 pre {
+    background: #ffffff;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    border-radius: 5px;
+    overflow-x: auto;
+    width: 100%;
+    
+
+}
+
+.note-text {
+    background-color: #00394F;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.name-columns {
+    font-weight: bold;
+    text-align: left;
+    font-size: 32;
+}
+
+ol {
+    list-style-type: disc; 
+    padding-left: 20px; 
+  }
+
+
+  table{
+    width: 70%;
+    margin: 0 auto;
+    table-layout: fixed;
+  }
+
+.agency_fee-container{
+    width: 30%;
+    margin:0 auto;
+}
+
+.hr-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 40px;
+ }
+
+ .hr-center::before,
+ .hr-center::after {
+    content: "";
+    flex: 1;
+    border-top: 1px solid #000; /* Adjust the line's style as needed */
+    margin: 0 10px; /* Space around the text */
+ }
+
+ .group-by-syntax{
+    margin: 0 auto;
+ }
+
+ .GalleriesTable,
+ .ManagersTable,
+ .city-total-container{
+    width: 50%;
+    margin: 0 auto;
+ }
+ .agency_fee_container{
+    width: 30%;
+    margin: 0 auto;
+ }
+
